@@ -1,0 +1,83 @@
+
+.fira-code{
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #0b1633;
+}
+
+h1{
+    color: #4fe0b0;
+    text-align: center;
+    font-family: 'Fira Code',sans-serif;
+    margin: 50px 0;
+}
+
+table{
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 2px solid white;
+    padding: 3px 20px;
+    box-sizing: border-box;
+    position: relative;
+    color: white;
+}
+
+th{
+    padding: 6px 0;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td{
+    letter-spacing: 1.5px;
+    padding: 8px 6px;
+    font-weight: normal;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.firstColumn{
+    color: #4fe0b0;
+}
+.thirdColumn{
+    text-align: left;
+}
+
+.codeTag{
+    color: #cde8e2;
+}
+
+#tag{
+    width: 300px;
+}
+#name{
+    width: 350px;
+}
+#description{
+    width: 800px;
+}
+
+#structures{
+    padding: 22px 0;
+}
