@@ -26,7 +26,8 @@ h1{
     color: #4fe0b0;
     text-align: center;
     font-family: 'Fira Code',sans-serif;
-    margin: 50px 0;
+    margin: 150px 0 50px 0;
+    display: block;
 }
 
 table{
@@ -81,3 +82,24 @@ td{
 #structures{
     padding: 22px 0;
 }
+
+ul li{
+    display: inline-block;
+    color: white;
+    z-index: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 50px;
+}
+
+nav{
+    background-color: black;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
