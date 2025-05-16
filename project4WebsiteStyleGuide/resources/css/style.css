@@ -1,0 +1,233 @@
+/* IMPORTED FONTS  */
+
+.roboto{
+  font-family: "Roboto";
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.fira-code{
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+
+
+/* GENERAL */
+ul, body, header, nav, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #0b1633;
+}
+
+
+  /* NAVIGATION BAR  */
+
+nav{
+    background-color: black;
+    position: fixed;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    padding-top: 16px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    bottom: 6px;
+    
+}
+
+nav li{
+    display: inline;
+    padding-left: 50px;
+    margin: 25px 0;
+    font-size: 22px;
+    line-height: 60px;
+
+}
+
+nav img{
+    height: 30px;
+    width: auto;
+    padding-left: 15px;
+    padding-top: 22px;
+}
+
+#home{
+    padding-right: 18px;
+}
+
+/* HEADINGS  */
+
+header h1{
+    text-align: left;
+    font-family: 'Fira Code',sans-serif;
+    font-size: 34px;
+    color: #4fe0b0;
+    position: relative;
+    margin-top: 150px;
+    left: 65px;
+    margin-bottom: 30px;
+}
+h1{
+    text-align: left;
+    font-family: 'Fira Code',sans-serif;
+    font-size: 34px;
+    color: #4fe0b0;
+    position: relative;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    left: 30px;
+    font-weight: bold;
+}
+
+/* COLORS */
+.colors{
+    text-align: center;
+}
+
+.colors p{
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 220px;
+    height: 220px;
+    margin: 0 25px;
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+#black{
+    background-color: #000000;
+    color: white;
+    
+}
+#white{
+    border-color: black;
+    background-color: #FFFFFF;
+    color: black;
+}
+#turquoise{
+    color: black;
+    background-color: #4fe0b0;
+}
+#blue{
+    color: white;
+    background-color: #0b1633
+}
+
+
+/* FONTS */
+.fonts{
+    text-align: center;
+}
+.fonts p{
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 230px;
+    margin: 0 25px;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 12px;
+    color: white;
+    vertical-align: top;
+}
+#roboto{
+    font-family: Roboto;
+}
+#fira{
+    font-family: 'fira code';
+}
+#courier{
+    font-family: 'courier new';
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.fontTitle{
+    font-size: 24px;
+}
+
+
+/* TEXT STYLES */
+.textStyles{
+    text-align: center;
+}
+.textStyles span{
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 230px;
+    margin: 0 25px;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 2px;
+    color: white;
+    vertical-align: top;
+}
+p{
+    font-family: 'courier new';
+    font-weight: bold;
+    font-size: 18px;
+}
+h2{
+    left: 0;
+}
+
+/* FOOTER  */
+footer{
+background-color: black;
+    color: #4fe0b0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 14px 20px;
+    margin-top: 70px;
+    width: 100%;
+    text-align: right;
+    box-sizing: border-box;
+}
+#creator{
+    font-style: italic;
+    
+}
+
